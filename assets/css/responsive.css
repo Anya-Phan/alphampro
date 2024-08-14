@@ -1,0 +1,537 @@
+@media screen and (max-width: 640px) {
+    .pagecrm_funct-text {
+        padding: 10px;
+    }
+
+    .pagecrm_funct-item {
+        margin: 10px 0;
+    }
+
+    .pagecrm_send-form {
+        padding: 44px 16px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .pagecrm_content {
+        width: calc(100% - 50px);
+    }
+
+    .pagecrm_header-fixed .pagecrm_content {
+        width: calc(100% - 40px);
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .pagecrm_header-logo {
+        width: 221px;
+    }
+
+    .pagecrm_funct-images {
+        padding: 35px 3px 0;
+    }
+
+    .pagecrm_use-title {
+        margin-bottom: 60px;
+    }
+
+    .pagecrm_use-item:nth-child(2) {
+        margin: 32px 0;
+    }
+
+    .pagecrm_use-wrap {
+        padding: 40px;
+    }
+
+    .pagecrm_use-marker {
+        width: 90px;
+    }
+
+    .pagecrm_use-item {
+        gap: 18px;
+    }
+
+    .pagecrm_price-wrap-left {
+        max-width: 400px;
+    }
+
+    .pagecrm_price-marker {
+        width: 28px;
+    }
+
+    .pagecrm_question-subtitle {
+        margin: 0 auto 16px;
+    }
+
+    .pagecrm_question-field {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    .pagecrm_section {
+        margin: 80px 0;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .pagecrm_content {
+        width: calc(100% - 100px);
+    }
+
+    .pagecrm_nav-icon {
+        display: none;
+    }
+
+    .pagecrm_header-nav {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .pagecrm_header-item-link {
+        display: inline-block;
+        padding: 12px;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #e9deff;
+    }
+
+    .pagecrm_header-item .pagecrm_search-icon {
+        cursor: pointer;
+        width: 24px;
+    }
+
+    .pagecrm_header-item-link:hover {
+        text-shadow: 0px 0px 20px #d795ff, 0px 0px 4px #d795ff;
+    }
+
+    .pagecrm_header-bottom {
+        display: none;
+    }
+
+    .pagecrm_hero-decor {
+        top: 0;
+    }
+
+    .pagecrm_manage-list li {
+        grid-column: span 4;
+    }
+
+    .pagecrm_manage-list li:last-child {
+        grid-column: 5 / span 4;
+    }
+
+    .pagecrm_function-wrap {
+        column-gap: 20px;
+    }
+
+    .pagecrm_funct-cate {
+        grid-column: span 6;
+        border-radius: 20px;
+    }
+
+    .pagecrm_use-title {
+        margin-bottom: 70px;
+    }
+
+    .pagecrm_use-item:nth-child(2) {
+        margin: 36px 0;
+    }
+
+    .pagecrm_use-var {
+        line-height: 1.53;
+    }
+
+    .pagecrm_case-subtitle {
+        margin-top: 4px;
+        margin-bottom: 48px;
+    }
+
+    .pagecrm_case-list {
+        column-gap: 32px;
+    }
+
+    .pagecrm_case-item {
+        grid-column: span 6;
+        flex-direction: row;
+        padding: 29px 26px;
+        text-align: left;
+        gap: 17px;
+        width: 100%;
+        box-shadow: 0px 0px 20px 0px #d795ff80;
+    }
+
+    .pagecrm_case-imgwrap {
+        margin: 0;
+    }
+
+    .pagecrm_case-item-title {
+        font-size: 20px;
+    }
+
+    .pagecrm_case-item-subtitle {
+        font-size: 16px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    .pagecrm_case-itme-note {
+        font-size: 16px;
+    }
+
+    .pagecrm_case-item-btn {
+        font-size: 20px;
+        margin-top: 28px;
+    }
+
+    .pagecrm_price-h2 {
+        line-height: 1.97;
+        margin-bottom: 60px;
+    }
+
+    .pagecrm_price-wrap-header {
+        height: 80px;
+    }
+
+    .pagecrm_price-wrap-left {
+        max-width: 600px;
+    }
+
+    .pagecrm_price-list {
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .pagecrm_price-wrap-body {
+        margin: 20px 0;
+    }
+
+    .pagecrm_connect-title {
+        line-height: 1.98;
+    }
+
+    .pagecrm_connect-subtitle {
+        font-weight: 400;
+        line-height: 1.11;
+        margin-bottom: 68px;
+    }
+
+    .pagecrm_connect-form {
+        padding: 44px 86px;
+    }
+
+    .pagecrm_partner-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 68px;
+        gap: 55px;
+    }
+
+    .pagecrm_partner-img {
+        width: 38.36%;
+    }
+
+    .pagecrm_partner-list {
+        margin-top: 0;
+        flex-grow: 1;
+    }
+
+    .pagecrm_partner-item {
+        padding: 38px 0;
+    }
+
+    .pagecrm_question-form {
+        max-height: 576px;
+        padding: 50px 40px 44px;
+        text-align: left;
+    }
+
+    .pagecrm_question-field {
+        font-size: 16px;
+        padding: 19px 23px 18px 25px;
+        margin: 10px 0;
+    }
+
+    textarea.pagecrm_question-field {
+        padding-bottom: 123px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .pagecrm_bg {
+        background: url(../images/Фон_Страница_CRM.webp) no-repeat top / cover;
+    }
+
+    .pagecrm_section {
+        margin: 100px 0;
+    }
+
+    .pagecrm_header-fixed {
+        position: fixed;
+        top: 0;
+        background: #1d01414d;
+        width: 100vw;
+        z-index: 10;
+    }
+
+    .pagecrm_breadcrumbs {
+        margin-top: 110px;
+    }
+
+    .pagecrm_header-wrap {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        line-height: 23.14px;
+    }
+
+    .pagecrm_header-phone-icon {
+        display: block;
+    }
+
+    .pagecrm_header-phone {
+        margin-left: 11px;
+        margin-right: 32px;
+    }
+
+    .pagecrm_header-btn {
+        display: flex;
+        padding: 16px 20px;
+        gap: 10px;
+    }
+
+    .pagecrm_manage-list li,
+    .pagecrm_manage-list li:last-child {
+        grid-column: span 3;
+    }
+
+    .pagecrm_h1 {
+        margin-top: 134px;
+    }
+
+    .pagecrm_hero-btn {
+        padding: 20px 40px;
+    }
+
+    .pagecrm_hero-decor {
+        left: -157px;
+    }
+
+    .pagecrm_send {
+        position: relative;
+    }
+
+    .pagecrm_send-decor {
+        display: block;
+        position: absolute;
+        top: -779px;
+        left: 0;
+        z-index: 0;
+    }
+
+    .pagecrm_send-form {
+        position: relative;
+        z-index: 1;
+    }
+
+    .pagecrm_use-title {
+        margin-bottom: 80px;
+    }
+
+    .pagecrm_use-item:nth-child(2) {
+        margin: 40px 0;
+    }
+
+    .pagecrm_use-img {
+        display: block;
+    }
+
+    .pagecrm_use-wrap {
+        padding: 57px 518px 57px 59px;
+    }
+
+    .pagecrm_price-wrap-header {
+        height: 106px;
+    }
+    .pagecrm_price-list {
+        grid-auto-rows: 389px;
+    }
+
+    .pagecrm_price-item {
+        padding: 35px;
+        grid-column: span 6;
+    }
+
+    .pagecrm_price-item:last-child {
+        grid-column: 4 / 10;
+    }
+
+    .pagecrm_price-wrap-header {
+        padding: 0 20px;
+    }
+
+    .pagecrm_price-wrap-left {
+        max-width: 339px;
+    }
+
+    .pagecrm_price-info {
+        padding: 44px 39px;
+    }
+
+    .pagecrm_connect-form-subtitle {
+        line-height: 26px;
+        margin: 20px 0 17px;
+    }
+
+    .pagecrm_connect-form {
+        padding: 44px 428px 44px 86px;
+    }
+
+    .pagecrm_connect-btn {
+        padding: 20px 0;
+        border-radius: 20px;
+    }
+
+    .pagecrm_connect-img-wrap {
+        display: block;
+    }
+
+    .pagecrm_question-wrap {
+        background: url(../images/Rectangle-laptop.webp) no-repeat bottom / 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 110px;
+    }
+
+    .pagecrm_question-text {
+        margin-left: 122px;
+        margin-top: 233px;
+    }
+
+    .pagecrm_question-h2 {
+        text-align: left;
+    }
+
+    .pagecrm_question-subtitle {
+        line-height: 40px;
+        margin: 45px 0 35px;
+    }
+
+    .pagecrm_question-note {
+        display: block;
+    }
+
+    .pagecrm_question-form {
+        margin-right: 0;
+    }
+
+    .pagecrm_footer .grid {
+        grid-template-columns: 1fr 1fr 1.1fr 0.9fr 0.4fr 1.2fr 1fr 0.8fr 2.5fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        gap: 0px 0px;
+        grid-template-areas:
+            "a a a a a b b b d d d d"
+            "a a a a a c c c d d d d"
+            "e e e e e f f f d d d d"
+            "g g g g g g g g . . . .";
+    }
+
+    .pagecrm_footer-nav {
+        display: block;
+        grid-area: a;
+    }
+
+    .pagecrm_footer-nav-item {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 1.17;
+    }
+
+    .pagecrm_footer-nav-item:first-child {
+        margin-bottom: 36px;
+    }
+
+    .pagecrm_footer-nav-item:not(:first-child) {
+        margin-top: 26px;
+    }
+
+    .pagecrm_footer-nav-link {
+        font-weight: 400;
+        color: #ddd;
+    }
+
+    .pagecrm_footer-nav-link:hover {
+        text-decoration: underline;
+    }
+
+    .pagecrm_footer-h2 {
+        grid-area: b;
+        text-align: left;
+        margin: 0 0 36px;
+    }
+
+    .pagecrm_footer-address {
+        grid-area: c;
+        width: 95%;
+    }
+
+    .pagecrm_footer-map {
+        grid-area: d;
+    }
+
+    .pagecrm_footer-logo {
+        grid-area: e;
+        margin: 41px 0 0;
+    }
+
+    .pagecrm_footer-icon {
+        flex-shrink: 0;
+        min-width: 26px;
+        margin-bottom: 10px;
+    }
+
+    .pagecrm_footer-social {
+        grid-area: f;
+        margin: 0;
+        align-items: flex-end;
+        gap: 33px;
+    }
+
+    .pagecrm_footer-copyright {
+        grid-area: g;
+    }
+
+    .pagecrm_footer-address {
+        margin: 0;
+    }
+
+    .pagecrm_footer-copyright {
+        display: flex;
+        gap: 110px;
+        margin-top: 89px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .pagecrm_price-h2 {
+        line-height: 1.98;
+    }
+
+    .pagecrm_price-h2 {
+        margin-bottom: 75px;
+    }
+    .pagecrm_connect-form {
+    }
+
+    .pagecrm_section {
+        margin: 120px 0;
+    }
+
+    .pagecrm_use-title {
+        margin-bottom: 90px;
+    }
+}
